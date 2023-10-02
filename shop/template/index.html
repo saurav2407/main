@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Sign-up Form</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        .form-container {
+            background-colr : #191970;
+            border: 0px solid orange;
+            box-shadow: 13px 10px 5px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            box-shadow: 20 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+
+        .form-group {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+`
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: red;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        h4{
+        color:red;
+        font-family: Arial, sans-serif;
+        background-color: white;
+
+        text-align: center;
+        padding: 20px;
+        }
+        a{
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        class{
+        color:red;
+        font-family: Arial, sans-serif;
+        background-color: white;
+
+        text-align: center;
+        padding: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header style="#191970"> <a href="/notes"> <img src="https://play-lh.googleusercontent.com/UUT4ZogXy7yR9EH0QMP_jxCUKup5eR_LIMm4E8NYfM1DEthTFi4CVrcfXUJ-lq_b_Nc=w526-h296" alt="Minimized Image" width="150" height="150"></a></header>
+
+
+    <div class="form-container">
+        <h2>Coaching Sign-up Form</h2>
+        <form action="/coaching" method="get">
+            <div class="name">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" >
+            </div>
+            <div class="phone">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="address">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" >
+            </div>
+            <div class="form-group">
+                <label for="course">Select Coaching Course:</label>
+                <select id="course" name="course">
+                    <option>select</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Physics">Pyhsics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="All Subject">All Subject</option>
+                </select>
+            </div>
+            <div class="form-group" >
+                <input type="submit" value="Sign Up ">
+            </div>
+        </form>
+    </div>
+    <header>&hearts;&hearts;&hearts;&hearts;</header>
+</body>
+
+<footer>
+    <h4><a href="/notes" style="color:white;font-family: Arial, sans-serif;transition;background: #4285F4;position: relative; background-color:#151820;box-shadow: 0 0 10px red,
+	            0 0 120px #4285F4;overflow: hidden;;">Notes</a></h4>
+
+</footer>
+
+<body>
+    <a style="background-colr : #191970;position: absolute;" href="/contact">Report</a>
+</body>
+
+</html>
+

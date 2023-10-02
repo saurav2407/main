@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GyanmGuru</title>
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+      color: white;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #navbar {
+      height: 60px;
+      background-color: #0f1111;
+    }
+    #logo {
+      color: #f08804;
+      font-size: 25px;
+    }
+    button {
+      background-color: #f08804;
+    }
+     #navbar a {
+      margin-right: 200px;
+      text-decoration: none;
+    }
+    Footer {
+      color: black;
+      text-align: center;
+      background-color: cadetblue;
+      height: 300px;
+    }
+    h3 {
+      color: black;
+    }
+
+    input {
+      color: black;
+    }
+
+    pre {
+      border: solid;
+      border-color: black;
+      font-size: large;
+    }
+    /* main {
+      height: 500px;
+      width: auto;
+      border-radius: 1px;
+      border-color: #f08804;
+    }
+    .Notes {
+      position: absolute;
+      left: 1%;
+      top: 15%;
+    } */
+    main {
+      height: 700px;
+      width: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 15px;
+      border: 1px solid hsl(0, 6%, 3%);
+      border-radius: 5px;
+      background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm347-baifernn-07_1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=f26683f9973614192e38583a0400a312);
+    }
+
+    .note {
+      background-color: hwb(66 47% 21%);
+
+      border: 1px solid hsl(0, 6%, 3%);
+      border-radius: 5px;
+      /* width: calc(25.33% - 1px);  */
+      width: 910px;
+      height: 20px;
+      text-align: center;
+    }
+    .notes {
+
+      background-color: #f08804;
+      padding: 29px;
+      width: calc(70.33% - 0px); /* Adjust the width as needed */
+      height: 10px;
+      border: 1px solid hsl(0, 6%, 3%);
+      border-radius: 5px;
+      flex-direction: column;
+
+
+    }
+    .notes a{
+      margin-right: 100px;
+      text-decoration: none;
+    }
+    h2 {
+      color: #151818;
+      position: absolute;
+      right: 45%;
+      top: 70px;
+    }
+    H4 {
+      color: #0f1111;
+    }
+    .download-button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .download-button:hover {
+      background-color: #2980b9;
+    }
+    .youtube{
+
+     margin-top: 300px;
+     margin-bottom: 200px;
+     color: #0f1111;
+     transition: background-color 3s ease;
+
+    }
+    big{
+      color: #0f1111;
+      border: 1px solid hsl(0, 6%, 3%);
+      border-radius: 5px;
+
+      background-color: #ffffff;
+    }
+    .youtube:hover{
+      color: black;
+      background-color: #3498db;
+
+    }
+  </style>
+  <body>
+    <!-- <iframe width="260" height="115" src="https://www.youtube.com/embed/ecCSdA6cLkw?si=bnJNdmb8J6UTLAYT"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Tutorial</title>
+        <link rel="stylesheet" href="jojo.css" />
+      </head>
+      <body>
+        <header>
+          <div id="navbar">
+            <a id="logo">GyanmGuru.com</a>
+            <a href="#">Account</a>
+            <a href="#">My Cart</a>
+            <a href="/contact">Contect us</a>
+            <input placeholder="Search GyanmGuru.com" />
+            <button>Search</button>
+          </div>
+        </header>
+        <header>
+          <h1>Science Notes</h1>
+        </header>
+
+
+        <main>
+          <h2>NOTES FOR 12TH CLASS</h2>
+          <div class="note">
+            <h3>Select your subject</h3>
+            <br />
+            <div class="notes">
+              <!-- <h2>Note 1</h2> -->
+
+                <a href="#"
+                  >Mathematics-I </a>
+                   <a href="path_to_your_file.zip" download>
+                    <button class="download-button">Download File</button>
+                  </a>
+
+
+            </div>
+            <br />
+            <div class="notes">
+              <!-- <h2>Note 1</h2> -->
+
+                <a href="#"
+                  >Mathematics-II </a>
+                  <a href="path_to_your_file.zip" download>
+                    <button class="download-button">Download File</button>
+                  </a>
+
+            </div>
+            <br />
+            <div class="notes">
+              <!-- <h2>Note 2</h2> -->
+
+                <a href="#"
+                  >Physics-I </a>
+                  <a href="path_to_your_file.zip" download>
+                    <button class="download-button">Download File</button>
+                  </a >
+
+            </div>
+            <br />
+            <div class="notes">
+              <!-- <h2>Note 2</h2> -->
+
+              <a href="#"
+                >Physics-II </a>
+                <a href="path_to_your_file.zip" download>
+                  <button class="download-button">Download File</button>
+                </a>
+            </div>
+            <br />
+            <div class="notes">
+              <!-- <h2>Note 3</h2> -->
+              <a href="#"
+                >Chemistry-I </a>
+                <a href="path_to_your_file.zip" download>
+                  <button class="download-button">Download File</button>
+                </a>
+            </div>
+            <br />
+            <div class="notes">
+              <!-- <h2>Note 3</h2> -->
+              <a href="#"
+                >Chemistry-II </a>
+                <a href="path_to_your_file.zip" download>
+                  <button class="download-button">Download File</button>
+                </a>
+
+            </div>
+            <!-- Add more notes as needed -->
+          </div>
+          <div class="youtube">
+            <a href="https://youtube.com/@Gyanm_guru?si=rp4VS1Ug36CM508a"><img src="https://i.pinimg.com/originals/52/9e/a7/529ea730ed583c217a43f620a734041a.png" height="200px"></a>
+            <big> Click this image and Visit in youtube</big>
+          </div>
+        </main>
+
+
+        <footer>
+          Made with &hearts; by Gyanm Guru!<br />
+
+          <h4>Mr. Abhishek Sharma is the consecrator of this institute.</h4>
+          <br />
+          <p>&copy; 2023 GyanmGuru.com</p>
+          <br />
+          <section id="contact">
+            <p>If you have any questions or inquiries, so contect us</p>
+            <br />
+            <ul>
+              <li>
+                &#9993;
+                <a href="mailto:contact@example.com">contact@example.com</a>
+              </li>
+              <br />
+              <li>&#9743;<a href="tel:+917067063333">+917067-063333</a></li>
+              <br />
+              <li>Address: Near Vardaan hospital,Dhobiya tanki,rewa(M.P)</li>
+            </ul>
+          </section>
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--  <head>-->
+
+<!--    <meta charset="UTF-8" />-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+<!--    <title>GyanmGuru</title>-->
+<!--    <script-->
+<!--      src="https://kit.fontawesome.com/yourcode.js"-->
+<!--      crossorigin="anonymous"-->
+<!--    ></script>-->
+<!--  </head>-->
+<!--  <style>-->
+<!--    * {-->
+<!--      padding: 0px;-->
+<!--      margin: 0px;-->
+<!--      color: white;-->
+<!--    }-->
+<!--    body {-->
+<!--      font-family: Arial, sans-serif;-->
+<!--    }-->
+
+<!--    #navbar {-->
+<!--      height: 60px;-->
+<!--      background-color: #0f1111;-->
+<!--    }-->
+<!--    #logo {-->
+<!--      color: #f08804;-->
+<!--      font-size: 25px;-->
+<!--    }-->
+<!--    button {-->
+<!--      background-color: #f08804;-->
+<!--    }-->
+<!--    a {-->
+<!--      margin-right: 200px;-->
+<!--      text-decoration: none;-->
+<!--    }-->
+<!--    Footer {-->
+<!--      color: black;-->
+<!--      text-align: center;-->
+<!--      background-color: cadetblue;-->
+<!--      height: 300px;-->
+<!--    }-->
+<!--    h3 {-->
+<!--      color: black;-->
+<!--    }-->
+
+<!--    input {-->
+<!--      color: black;-->
+<!--    }-->
+
+<!--    pre {-->
+<!--      border: solid;-->
+<!--      border-color: black;-->
+<!--      font-size: large;-->
+<!--    }-->
+
+<!--    main {-->
+<!--      height: 600px;-->
+<!--      width: auto;-->
+<!--      display: flex;-->
+<!--      flex-wrap: wrap;-->
+<!--      gap: 25px;-->
+<!--      padding: 15px;-->
+<!--      border: 1px solid hsl(0, 6%, 3%);-->
+<!--      border-radius: 5px;-->
+<!--      background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm347-baifernn-07_1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=f26683f9973614192e38583a0400a312) ;-->
+
+<!--    }-->
+
+<!--    .note {-->
+<!--      background-color: hwb(66 47% 21%);-->
+
+<!--      border: 1px solid hsl(0, 6%, 3%);-->
+<!--      border-radius: 5px;-->
+<!--      width: calc(33.33% - 1px); /* Adjust the width as needed */-->
+<!--      height: 20px;-->
+<!--    }-->
+<!--    .notes {-->
+<!--      /* background-image: url(https://source.unsplash.com/1600x900/?background); */-->
+<!--      background-color: #f08804;-->
+<!--      padding: 15px;-->
+<!--      width: calc(22.33% - 2px); /* Adjust the width as needed */-->
+<!--      height: 20px;-->
+<!--      border: 1px solid hsl(0, 6%, 3%);-->
+<!--      border-radius: 5px;-->
+<!--    }-->
+<!--    h2 {-->
+<!--      color: #151818;-->
+<!--      position: absolute;-->
+<!--      right: 45%;-->
+<!--      top: 70px;-->
+
+<!--    }-->
+<!--    H4 {-->
+<!--      color: #0f1111;-->
+<!--    }-->
+
+<!--  </style>-->
+<!--  <body>-->
+
+<!--    <!DOCTYPE html>-->
+<!--      <head>-->
+<!--        <meta charset="UTF-8" />-->
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
+<!--        <title>CSS Tutorial</title>-->
+<!--&lt;!&ndash;        <link rel="stylesheet" href="jojo.css" />&ndash;&gt;-->
+<!--      </head>-->
+<!--      <body>-->
+<!--        <form action="/coaching" method="get">-->
+
+<!--        <header>-->
+<!--          <div id="navbar">-->
+<!--            <a id="logo">GyanmGuru.com</a>-->
+<!--            <a href="">Account</a>-->
+<!--            <a href="">My Cart</a>-->
+<!--            <a href="/report">Contact us</a>-->
+<!--            <input id="phone" name="phone" placeholder="search" />-->
+<!--            <button>Search</button>-->
+<!--          </div>-->
+<!--        </header>-->
+<!--        <header>-->
+<!--          <h1>Science Notes</h1>-->
+<!--        </header>-->
+
+
+<!--        <main>-->
+<!--          <h2>NOTES FOR 12TH CLASS</h2>-->
+<!--          <div class="note">-->
+<!--            <h3>Select your subject</h3>-->
+<!--            <br />-->
+<!--            <div class="notes">-->
+<!--              &lt;!&ndash; <h2>Note 1</h2> &ndash;&gt;-->
+<!--              <p><a href="https://ncert.nic.in/textbook.php?lemh1=0-6">Mathematics-I</a></p>-->
+<!--            </div>-->
+<!--            <br />-->
+<!--            <div class="notes">-->
+<!--              &lt;!&ndash; <h2>Note 1</h2> &ndash;&gt;-->
+<!--              <p><a href="https://ncert.nic.in/textbook.php?lemh2=0-7">Mathematics-II</a></p>-->
+<!--            </div>-->
+<!--            <br />-->
+<!--            <div class="notes">-->
+<!--              &lt;!&ndash; <h2>Note 2</h2> &ndash;&gt;-->
+<!--              <p><a href="https://ncert.nic.in/textbook.php?leph1=0-8">Physics-I</a></p>-->
+<!--            </div>-->
+<!--            <br />-->
+<!--            <div class="notes">-->
+<!--              &lt;!&ndash; <h2>Note 2</h2> &ndash;&gt;-->
+<!--              <p><a href="https://ncert.nic.in/textbook.php?leph2=0-6">Physics-II</a></p>-->
+<!--            </div>-->
+<!--            <br />-->
+<!--            <div class="notes">-->
+<!--              &lt;!&ndash; <h2>Note 3</h2> &ndash;&gt;-->
+<!--              <p><a href="https://ncert.nic.in/textbook.php?lech1=0-9">Chemistry-I</a></p>-->
+<!--            </div>-->
+<!--            <br />-->
+<!--            <div class="notes">-->
+<!--              &lt;!&ndash; <h2>Note 3</h2> &ndash;&gt;-->
+<!--              <p><a href="https://ncert.nic.in/textbook.php?lech2=0-7">Chemistry-II</a></p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </main>-->
+
+<!--        <footer>-->
+<!--          Made with &hearts; by Gyanm Guru!<br />-->
+
+<!--          <h4>Mr. Abhishek Sharma is the consecrator of this institute.</h4>-->
+<!--          <br />-->
+<!--          <p>&copy; 2023 GyanmGuru.com</p>-->
+<!--          <br />-->
+<!--          <section id="contact">-->
+<!--            <p>-->
+<!--              If you have any questions or inquiries, so contect us-->
+<!--            </p>-->
+<!--            <br />-->
+<!--            <ul>-->
+<!--              <li>-->
+<!--                &#9993;-->
+<!--                <a href="mailto:contact@example.com">contact@example.com</a>-->
+<!--              </li>-->
+<!--              <br />-->
+<!--              <li>&#9743;<a href="tel:+917067063333">+917067-063333</a></li>-->
+<!--              <br />-->
+<!--              <li>Address: Near Vardaan hospital,Dhobiya tanki,rewa(M.P)</li>-->
+<!--            </ul>-->
+
+<!--          </section>-->
+<!--        </footer></form>-->
+<!--      </body>-->
+<!--  </body>-->
+<!--<body>-->
+<!--        <form action="/download_link" method="get">-->
+<!--            <div class="form-group">-->
+<!--                <label for="link">Full Name:</label>-->
+<!--                <input placeholder="paste link here" type="text" id="link" name="link" required>-->
+<!--                  <input type="submit" value="get video" >-->
+<!--            </div>-->
+<!--        </form>-->
+<!--</body>-->
+<!--</html>-->

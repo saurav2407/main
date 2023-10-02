@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact Us</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body{
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: white;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+        <div class="form-container">
+        <h2>Contact/Issue</h2>
+        <form action="/report" method="get">
+            <div class="form-group">
+                <label for="issue">Issue :</label>
+                <input type="text" id="issue" name="issue" required>
+            </div><div class="phone">
+                <label for="phone">Number:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="email">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Report" >
+
+            </div>
+
+        </form>
+        </div>
+</html>
